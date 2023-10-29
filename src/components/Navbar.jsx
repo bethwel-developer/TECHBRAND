@@ -47,14 +47,14 @@ const Navbar = () => {
         </div>
       </div>
 
-      <ul className={!nav ? 'hidden' : 'absolute bg-zinc-200 w-full px-8'}>
+     <ul className={!nav ? 'hidden' : 'absolute bg-zinc-200 w-full px-8'}>
           <li className='border-b-2 border-zinc-300 w-full'><NavLink onClick={handleClose} to="/" smooth={true} duration={500}>Home</NavLink></li>
           <li className='border-b-2 border-zinc-300 w-full'><NavLink onClick={handleClose} to="/about" smooth={true} offset={-200} duration={500}>About</NavLink></li>
-          <li className='border-b-2 border-zinc-300 w-full'><NavLink onClick={handleClose} to="#" smooth={true} offset={-50} duration={500}>Contacts</NavLink></li>
+          <li className='border-b-2 border-zinc-300 w-full'><NavLink onClick={handleClose} to="/contacts" smooth={true} offset={-50} duration={500}>Contacts</NavLink></li>
 
         <div className='flex flex-col my-4'>
-            <button className='bg-transparent text-indigo-600 px-8 py-3 mb-4'> <NavLink to="/signin"> sign in</NavLink></button>
-            <button className='px-8 py-3'> <NavLink to="/signup"> sign up</NavLink></button>
+            <button className='bg-transparent text-indigo-600 px-8 py-3 mb-4'> <NavLink  onClick={handleClose}  to="/signin" smooth={true} duration={500}> sign in</NavLink></button>
+            <button className='px-8 py-3'> <NavLink  onClick={handleClose}  to="/signup"smooth={true} duration={500}> sign up</NavLink></button>
         </div>
       </ul>
     </div>
