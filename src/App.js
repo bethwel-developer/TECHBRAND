@@ -1,4 +1,7 @@
 import { BrowserRouter,Routes,Route } from 'react-router-dom';
+
+//components imports
+
 import Homepage from './components/homepage';
 import Signup from './components/signup';
 import Footer from './components/Footer';
@@ -6,8 +9,6 @@ import Navbar from './components/Navbar';
 import Signin from './components/signin';
 import About from './components/About';
 import Contact from './components/contacts';
-
-
 
 function App() {
   return (
