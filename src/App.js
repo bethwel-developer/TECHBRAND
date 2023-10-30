@@ -13,20 +13,15 @@ function App() {
   return (
     <BrowserRouter>
     <Navbar/>
+    
    <Routes>
     <Route path='/' element={<Homepage/>}></Route>
     <Route path='/about' element={<About/>}></Route>
-
     <Route path='/signup' element={<Signup/>}></Route>
     <Route path='/signin' element={<Signin/>}></Route>
     <Route path='/contacts' element={<Contact/>}></Route>
-
-
-
-   
-    
-
    </Routes>
+    
    <Footer/>
    </BrowserRouter>
   );
