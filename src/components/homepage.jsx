@@ -1,5 +1,7 @@
+
 import Hero from './Hero';
 import Stats from './Stats';
+
 
 const Homepage = ()=> {
   return (
@@ -10,5 +12,6 @@ const Homepage = ()=> {
     </>
   );
 }
+
 
 export default Homepage;
