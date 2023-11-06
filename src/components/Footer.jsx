@@ -8,7 +8,7 @@ import {
     FaTwitch,
 } from 'react-icons/fa'
 
-const Footer = () => {
+const Footer = () =>  {
   return (
     <div className='w-full mt-24 bg-slate-900 text-gray-300 py-y px-2'>
         <div className='max-w-[1240px] mx-auto grid grid-cols-2 md:grid-cols-6 border-b-2 border-gray-600 py-8'>
@@ -21,7 +21,8 @@ const Footer = () => {
                     <li className='py-1'>Data</li>
                     <li className='py-1'>Cloud</li>
                 </ul>
-            </div>
+            </div>  
+            
             <div>
                 <h6 className='font-bold uppercase pt-2'>Support</h6>
                 <ul>
@@ -31,6 +32,7 @@ const Footer = () => {
                     <li className='py-1'>API Status</li>
                 </ul>
             </div>
+            
             <div>
                 <h6 className='font-bold uppercase pt-2'>Company</h6>
                 <ul>
@@ -51,6 +53,7 @@ const Footer = () => {
                     <li className='py-1'>Conditions</li>
                 </ul>
             </div>
+            
             <div className='col-span-2 pt-8 md:pt-2'>
                 <p className='font-bold uppercase'>Subscribe to our newsletter</p>
                 <p className='py-4'>The latest news, articles, and resources, sent to your inbox weekly.</p>
