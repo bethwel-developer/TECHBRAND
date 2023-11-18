@@ -1,4 +1,5 @@
 import React from 'react'
+import "./hero.css"
 import {
     CloudUploadIcon,
     DatabaseIcon,
@@ -27,10 +28,10 @@ const Hero = () => {
                 <img className='w-full' src={bgImg} alt="/" />
             </div>
             
-            <div className='absolute flex flex-col py-8 md:min-w-[760px] bottom-[-120px]
+            <div className='absolute flex flex-col py-8 md:min-w-[860px] bottom-[-1px]
             mx-1 md:left-1/2 transform md:-translate-x-1/2 bg-zinc-100
             border border-slate-100 rounded-xl text-center shadow-xl'>
-                <p>Data Services</p>
+                <p className='ppp'>Data Services</p>
                 <div className='flex justify-between flex-wrap px-4'>
                     <p className='flex px-4 py-2 text-slate-500'><CloudUploadIcon className='h-6 text-indigo-600' /> App Security</p>
                     <p className='flex px-4 py-2 text-slate-500'><DatabaseIcon className='h-6 text-indigo-600' /> Dashboard Design</p>
