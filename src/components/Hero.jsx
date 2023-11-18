@@ -1,5 +1,4 @@
 import React from 'react'
-import "./hero.css"
 import {
     CloudUploadIcon,
     DatabaseIcon,
@@ -11,7 +10,6 @@ import bgImg from '../assets/cyber-bg2.png'
 import { NavLink } from 'react-router-dom'
 
 const Hero = () => {
-    
   return (
     <div name='home' className='w-full h-screen flex flex-col justify-between'>
         <div className='grid md:grid-cols-2 max-w-[1240px] m-auto'>
@@ -23,12 +21,10 @@ const Hero = () => {
                 px-8 py-4 mr-2 mb-2 dark:bg-blue-600 dark:hover:bg-blue-700 focus:outline-none dark:focus:ring-blue-800"> <NavLink to="/about"> GET STARTED</NavLink></button>
                
             </div>
-            
             <div>
                 <img className='w-full' src={bgImg} alt="/" />
             </div>
-            
-            <div className='herostrip absolute flex flex-col py-8 md:min-w-[860px] bottom-[-1px]
+            <div className='absolute flex flex-col py-8 md:min-w-[760px] bottom-[-90px]
             mx-1 md:left-1/2 transform md:-translate-x-1/2 bg-zinc-100
             border border-slate-100 rounded-xl text-center shadow-xl'>
                 <p>Data Services</p>
@@ -43,6 +39,5 @@ const Hero = () => {
     </div>
   )
 }
-
 
 export default Hero
