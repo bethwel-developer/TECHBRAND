@@ -6,7 +6,6 @@ import {
     ServerIcon,
 } from '@heroicons/react/solid'
 
-
 import bgImg from '../assets/cyber-bg2.png'
 import { NavLink } from 'react-router-dom'
 
