@@ -83,6 +83,7 @@ const AllInOne = () => {
               </p>
             </div>
           </div>
+
           <div className='flex'>
             <div>
               <CheckIcon className='w-7 mr-4 text-green-600' />
