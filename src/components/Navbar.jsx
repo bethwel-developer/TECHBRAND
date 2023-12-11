@@ -1,6 +1,5 @@
 import React, {useState} from 'react';
 
-
 import { MenuIcon, XIcon } from '@heroicons/react/outline';
 import { NavLink } from 'react-router-dom';
 
