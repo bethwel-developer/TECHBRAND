@@ -126,5 +126,5 @@ const AllInOne = () => {
     </div>
   );
 };
-
+ 
 export default AllInOne;
