@@ -1,7 +1,6 @@
   
 import React from 'react';
 import { CheckIcon } from '@heroicons/react/outline';
-
 const AllInOne = () => {
   return (
     <div name='platforms' className='w-full my-32'>
