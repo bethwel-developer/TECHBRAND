@@ -24,7 +24,8 @@ function App ()
     <Route path='/signin' element={<Signin/>}></Route>
     <Route path='/contacts' element={<Contact/>}></Route>
    </Routes>
-    
+
+   
    <Footer/>
    </BrowserRouter>
   );
