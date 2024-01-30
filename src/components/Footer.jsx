@@ -33,6 +33,7 @@ const Footer = () =>  {
                     <li className='py-1'>API Status</li>
                 </ul>
             </div>
+
             
             <div>
                 <h6 className='font-bold uppercase pt-2'>Company</h6>
