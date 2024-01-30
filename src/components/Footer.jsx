@@ -66,6 +66,7 @@ const Footer = () =>  {
             </div>
         </div>
 
+       
         <div className='flex flex-col max-w-[1240px] px-2 py-4 mx-auto justify-between sm:flex-row text-center text-white'>
         <p className='py-4'>Template designed by Bethwel_Developer</p>
         <div className='flex justify-between sm:w-[300px] pt-4 text-2xl'>
