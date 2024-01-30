@@ -8,6 +8,7 @@ import {
     FaTwitch,
 } from 'react-icons/fa'
 
+
 const Footer = () =>  {
   return (
     <div className='w-full mt-24 bg-slate-900 text-gray-300 py-y px-2'>
