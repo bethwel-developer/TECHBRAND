@@ -9,8 +9,7 @@ import {
 import bgImg from '../assets/cyber-bg2.png'
 import { NavLink } from 'react-router-dom'
 
-const Hero = () => {
-    
+const Hero = () => {   
   return (
     <div name='home' className='w-full h-screen flex flex-col justify-between'>
         <div className='grid md:grid-cols-2 max-w-[1240px] m-auto'>
