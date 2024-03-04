@@ -25,7 +25,6 @@ function App ()
     <Route path='/contacts' element={<Contact/>}></Route>
    </Routes>
 
-   
    <Footer/>
    </BrowserRouter>
   );
