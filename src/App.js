@@ -1,5 +1,4 @@
- import { BrowserRouter,Routes,Route } from 'react-router-dom';
- 
+ import { BrowserRouter,Routes,Route } from 'react-router-dom'; 
 //components imports
 import Homepage from './components/homepage';
 import Signup from './components/signup';
