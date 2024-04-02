@@ -13,8 +13,7 @@ function App ()
   { 
   return (
     <BrowserRouter>
-    <Navbar/>
-    
+    <Navbar/> 
  <Routes>
     <Route path='/' element={<Homepage/>}></Route>
     <Route path='/about' element={<About/>}></Route>
