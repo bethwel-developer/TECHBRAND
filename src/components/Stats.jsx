@@ -1,6 +1,5 @@
 
 import React from 'react'
-
 const Stats = () => {
   return (
     <div name='about' className='w-full my-32'>
