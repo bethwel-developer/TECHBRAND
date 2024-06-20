@@ -2,6 +2,7 @@
 import React from 'react'
 const Stats = () => {
   return (
+   
     <div name='about' className='w-full my-32'>
         <div className='max-w-[1240px] mx-auto'>
             <div className='text-center'>
