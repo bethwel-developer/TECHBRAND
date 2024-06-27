@@ -9,9 +9,7 @@ const Navbar = () => {
     const handleClick = () => setNav(!nav)
 
     const handleClose =()=> setNav(!nav)
-
-  
-    return (
+ return (
     <div className='w-screen h-[95px] z-10 bg-zinc-200 fixed drop-shadow-lg'>
       <div className='px-2 pt-4 flex justify-between items-center w-full h-full'>
         <div className='flex items-center'>
