@@ -1,7 +1,5 @@
 
 
-
-
 import { BrowserRouter,Routes,Route } from 'react-router-dom'; 
 //components imports
 import Homepage from './components/homepage';
